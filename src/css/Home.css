@@ -1,0 +1,22 @@
+.home.container {
+  display: flex;
+  height: 60vh;
+}
+
+.home .left-column, .home .right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.home .left-column {
+  background-color: #f0f0f0; /* Light grey */
+}
+
+.home .right-column {
+  background-color: #e0e0e0; /* Slightly darker grey */
+}
+
+.home .left-column {
+  font-size: 18px;
+  row-gap: 10px;
+}
